@@ -1,0 +1,128 @@
+[{"stream_name":"stdout","time":0.881380639,"data":"gpu_name: Tesla P100-PCIE-16GB\n"}
+,{"stream_name":"stdout","time":0.881446739,"data":"+ /usr/bin/python3 -m pip install --quiet --no-input --no-cache-dir --upgrade --index-url https://download.pytorch.org/whl/cu113 torch==1.12.1+cu113 torchvision==0.13.1+cu113\n"}
+,{"stream_name":"stderr","time":4.441286532,"data":"ERROR: Could not find a version that satisfies the requirement torch==1.12.1+cu113 (from versions: none)\n"}
+,{"stream_name":"stderr","time":4.441454032,"data":"ERROR: No matching distribution found for torch==1.12.1+cu113\n"}
+,{"stream_name":"stdout","time":4.515342948,"data":"WARNING: Could not install P100-compatible PyTorch (CalledProcessError: Command '['/usr/bin/python3', '-m', 'pip', 'install', '--quiet', '--no-input', '--no-cache-dir', '--upgrade', '--index-url', 'https://download.pytorch.org/whl/cu113', 'torch==1.12.1+cu113', 'torchvision==0.13.1+cu113']' returned non-zero exit status 1.). Will attempt to run anyway -- training will fall back to CPU if CUDA is incompatible.\n"}
+,{"stream_name":"stderr","time":17.597501931,"data":"/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: \n"}
+,{"stream_name":"stderr","time":17.59753627,"data":"    Found GPU0 Tesla P100-PCIE-16GB which is of cuda capability 6.0.\n"}
+,{"stream_name":"stderr","time":17.597541442,"data":"    Minimum and Maximum cuda capability supported by this version of PyTorch is\n"}
+,{"stream_name":"stderr","time":17.597545301,"data":"    (7.0) - (12.0)\n"}
+,{"stream_name":"stderr","time":17.597548969,"data":"    \n"}
+,{"stream_name":"stderr","time":17.597552284,"data":"  queued_call()\n"}
+,{"stream_name":"stderr","time":17.597556049,"data":"/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: \n"}
+,{"stream_name":"stderr","time":17.597559549,"data":"    Please install PyTorch with a following CUDA\n"}
+,{"stream_name":"stderr","time":17.597561866,"data":"    configurations:  12.6 following instructions at\n"}
+,{"stream_name":"stderr","time":17.597564068,"data":"    https://pytorch.org/get-started/locally/\n"}
+,{"stream_name":"stderr","time":17.597566372,"data":"    \n"}
+,{"stream_name":"stderr","time":17.597568529,"data":"  queued_call()\n"}
+,{"stream_name":"stderr","time":17.597909631,"data":"/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: \n"}
+,{"stream_name":"stderr","time":17.597920497,"data":"Tesla P100-PCIE-16GB with CUDA capability sm_60 is not compatible with the current PyTorch installation.\n"}
+,{"stream_name":"stderr","time":17.597924804,"data":"The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.\n"}
+,{"stream_name":"stderr","time":17.597928338,"data":"If you want to use the Tesla P100-PCIE-16GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/\n"}
+,{"stream_name":"stderr","time":17.59793197,"data":"\n"}
+,{"stream_name":"stderr","time":17.59793511,"data":"  queued_call()\n"}
+,{"stream_name":"stdout","time":17.780969001,"data":"{\n"}
+,{"stream_name":"stdout","time":17.780998733,"data":"  \"train\": {\n"}
+,{"stream_name":"stdout","time":17.781004427,"data":"    \"num_images\": 2097,\n"}
+,{"stream_name":"stdout","time":17.781008331,"data":"    \"class_counts\": {\n"}
+,{"stream_name":"stdout","time":17.781012406,"data":"      \"battery\": 203,\n"}
+,{"stream_name":"stdout","time":17.781016208,"data":"      \"biological\": 214,\n"}
+,{"stream_name":"stdout","time":17.781020025,"data":"      \"cardboard\": 211,\n"}
+,{"stream_name":"stdout","time":17.781024552,"data":"      \"clothes\": 185,\n"}
+,{"stream_name":"stdout","time":17.781028244,"data":"      \"glass\": 212,\n"}
+,{"stream_name":"stdout","time":17.781055465,"data":"      \"metal\": 214,\n"}
+,{"stream_name":"stdout","time":17.781059234,"data":"      \"paper\": 213,\n"}
+,{"stream_name":"stdout","time":17.781061603,"data":"      \"plastic\": 204,\n"}
+,{"stream_name":"stdout","time":17.781063861,"data":"      \"shoes\": 224,\n"}
+,{"stream_name":"stdout","time":17.781066012,"data":"      \"trash\": 217\n"}
+,{"stream_name":"stdout","time":17.781068184,"data":"    }\n"}
+,{"stream_name":"stdout","time":17.781070365,"data":"  },\n"}
+,{"stream_name":"stdout","time":17.781072586,"data":"  \"val\": {\n"}
+,{"stream_name":"stdout","time":17.781074812,"data":"    \"num_images\": 449,\n"}
+,{"stream_name":"stdout","time":17.781077059,"data":"    \"class_counts\": {\n"}
+,{"stream_name":"stdout","time":17.781079279,"data":"      \"battery\": 42,\n"}
+,{"stream_name":"stdout","time":17.781081548,"data":"      \"biological\": 37,\n"}
+,{"stream_name":"stdout","time":17.781083766,"data":"      \"cardboard\": 44,\n"}
+,{"stream_name":"stdout","time":17.781085946,"data":"      \"clothes\": 60,\n"}
+,{"stream_name":"stdout","time":17.781088157,"data":"      \"glass\": 51,\n"}
+,{"stream_name":"stdout","time":17.781090473,"data":"      \"metal\": 47,\n"}
+,{"stream_name":"stdout","time":17.781092734,"data":"      \"paper\": 51,\n"}
+,{"stream_name":"stdout","time":17.781094897,"data":"      \"plastic\": 47,\n"}
+,{"stream_name":"stdout","time":17.781097077,"data":"      \"shoes\": 35,\n"}
+,{"stream_name":"stdout","time":17.781099832,"data":"      \"trash\": 35\n"}
+,{"stream_name":"stdout","time":17.781103299,"data":"    }\n"}
+,{"stream_name":"stdout","time":17.78110666,"data":"  },\n"}
+,{"stream_name":"stdout","time":17.781110691,"data":"  \"test\": {\n"}
+,{"stream_name":"stdout","time":17.781114755,"data":"    \"num_images\": 451,\n"}
+,{"stream_name":"stdout","time":17.781119246,"data":"    \"class_counts\": {\n"}
+,{"stream_name":"stdout","time":17.781123352,"data":"      \"battery\": 52,\n"}
+,{"stream_name":"stdout","time":17.781126702999998,"data":"      \"biological\": 49,\n"}
+,{"stream_name":"stdout","time":17.781130078,"data":"      \"cardboard\": 45,\n"}
+,{"stream_name":"stdout","time":17.781133366,"data":"      \"clothes\": 55,\n"}
+,{"stream_name":"stdout","time":17.781136636,"data":"      \"glass\": 37,\n"}
+,{"stream_name":"stdout","time":17.78113991,"data":"      \"metal\": 39,\n"}
+,{"stream_name":"stdout","time":17.781143161,"data":"      \"paper\": 36,\n"}
+,{"stream_name":"stdout","time":17.781146442,"data":"      \"plastic\": 49,\n"}
+,{"stream_name":"stdout","time":17.781149893,"data":"      \"shoes\": 41,\n"}
+,{"stream_name":"stdout","time":17.781153189,"data":"      \"trash\": 48\n"}
+,{"stream_name":"stdout","time":17.781156437,"data":"    }\n"}
+,{"stream_name":"stdout","time":17.781159684,"data":"  }\n"}
+,{"stream_name":"stdout","time":17.781162905,"data":"}\n"}
+,{"stream_name":"stdout","time":17.781166257,"data":"Running on device: cuda\n"}
+,{"stream_name":"stdout","time":17.785139414,"data":"=== Strategy: none ===\n"}
+,{"stream_name":"stderr","time":19.060430045,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":19.060468714,"data":"  File \"/kaggle/src/script.py\", line 138, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":19.060563891,"data":"    raise SystemExit(main())\n"}
+,{"stream_name":"stderr","time":19.060662645,"data":"                     ^^^^^^\n"}
+,{"stream_name":"stderr","time":19.060708521,"data":"  File \"/kaggle/working/train.py\", line 342, in main\n"}
+,{"stream_name":"stderr","time":19.0609328,"data":"    results = [run_strategy(strategy, args, device) for strategy in args.strategies]\n"}
+,{"stream_name":"stderr","time":19.061034001,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.061051715,"data":"  File \"/kaggle/working/train.py\", line 106, in run_strategy\n"}
+,{"stream_name":"stderr","time":19.061221055,"data":"    train_metrics = train_one_epoch(model, train_loader, optimizer, criterion, device)\n"}
+,{"stream_name":"stderr","time":19.061454861,"data":"                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.061463331,"data":"  File \"/kaggle/working/train.py\", line 71, in train_one_epoch\n"}
+,{"stream_name":"stderr","time":19.061571892,"data":"    logits = model(images)\n"}
+,{"stream_name":"stderr","time":19.061618047,"data":"             ^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.061668074,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":19.063259693,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":19.063297099,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.063361921,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1787, in _call_impl\n"}
+,{"stream_name":"stderr","time":19.063804642,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":19.063854792,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.063892822,"data":"  File \"/kaggle/working/train.py\", line 57, in forward\n"}
+,{"stream_name":"stderr","time":19.064034492,"data":"    return self.classifier(self.features(x))\n"}
+,{"stream_name":"stderr","time":19.064098086,"data":"                           ^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.064135565,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":19.064710254,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":19.064837969,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.064918233,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1787, in _call_impl\n"}
+,{"stream_name":"stderr","time":19.065325599,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":19.065406885,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.065450685,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py\", line 253, in forward\n"}
+,{"stream_name":"stderr","time":19.066218992,"data":"    input = module(input)\n"}
+,{"stream_name":"stderr","time":19.066281042,"data":"            ^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.066299096,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":19.06670349,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":19.066852059,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.066865115,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1787, in _call_impl\n"}
+,{"stream_name":"stderr","time":19.067274207,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":19.067350976,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.067412303,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/conv.py\", line 553, in forward\n"}
+,{"stream_name":"stderr","time":19.068539731,"data":"    return self._conv_forward(input, self.weight, self.bias)\n"}
+,{"stream_name":"stderr","time":19.068633918,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.068684608,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/conv.py\", line 548, in _conv_forward\n"}
+,{"stream_name":"stderr","time":19.068923329,"data":"    return F.conv2d(\n"}
+,{"stream_name":"stderr","time":19.068931202,"data":"           ^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":19.068935182,"data":"torch.AcceleratorError: CUDA error: no kernel image is available for execution on the device\n"}
+,{"stream_name":"stderr","time":19.068938686,"data":"Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.\n"}
+,{"stream_name":"stderr","time":19.068942154,"data":"CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\n"}
+,{"stream_name":"stderr","time":19.068945679,"data":"For debugging consider passing CUDA_LAUNCH_BLOCKING=1\n"}
+,{"stream_name":"stderr","time":19.068948788,"data":"Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"}
+,{"stream_name":"stderr","time":19.068952623,"data":"\n"}
+,{"stream_name":"stderr","time":23.844671661,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":23.844711183,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":24.075834635,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":24.075865677,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":24.686199702,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":25.935790014,"data":"[NbConvertApp] Writing 347197 bytes to __results__.html\n"}
+]

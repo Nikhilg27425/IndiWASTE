@@ -1,0 +1,19 @@
+{
+  "kernel_id": "nikhilgupta2005/indiwaste-project-1-augmentation-bias",
+  "kernel_title": "IndiWASTE Project 1 Augmentation Bias",
+  "dataset_source": "nikhilgupta2005/indiwaste-dataset",
+  "dataset_mount_slug": "indiwaste-dataset",
+  "dataset_subdir": "",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "epochs": 8,
+  "batch_size": 32,
+  "eval_batch_size": 64,
+  "strategies": ["none", "rotation", "crop", "color_jitter", "cutout"],
+  "poll_seconds": 30,
+  "output_dir": "kaggle_outputs",
+  "p100_torch_index_url": "https://download.pytorch.org/whl/cu113",
+  "p100_torch_version": "1.12.1+cu113",
+  "p100_torchvision_version": "0.13.1+cu113"
+}

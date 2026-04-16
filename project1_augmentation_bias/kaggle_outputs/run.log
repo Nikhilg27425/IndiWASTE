@@ -1,0 +1,67 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 Tesla P100-PCIE-16GB which is of cuda capability 6.0.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (7.0) - (12.0)
+    
+  queued_call()
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Please install PyTorch with a following CUDA
+    configurations:  12.6 following instructions at
+    https://pytorch.org/get-started/locally/
+    
+  queued_call()
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: 
+Tesla P100-PCIE-16GB with CUDA capability sm_60 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.
+If you want to use the Tesla P100-PCIE-16GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  queued_call()
+{
+  "train": {
+    "num_images": 2097,
+    "class_counts": {
+      "battery": 203,
+      "biological": 214,
+      "cardboard": 211,
+      "clothes": 185,
+      "glass": 212,
+      "metal": 214,
+      "paper": 213,
+      "plastic": 204,
+      "shoes": 224,
+      "trash": 217
+    }
+  },
+  "val": {
+    "num_images": 449,
+    "class_counts": {
+      "battery": 42,
+      "biological": 37,
+      "cardboard": 44,
+      "clothes": 60,
+      "glass": 51,
+      "metal": 47,
+      "paper": 51,
+      "plastic": 47,
+      "shoes": 35,
+      "trash": 35
+    }
+  },
+  "test": {
+    "num_images": 451,
+    "class_counts": {
+      "battery": 52,
+      "biological": 49,
+      "cardboard": 45,
+      "clothes": 55,
+      "glass": 37,
+      "metal": 39,
+      "paper": 36,
+      "plastic": 49,
+      "shoes": 41,
+      "trash": 48
+    }
+  }
+}
+Running on device: cuda
+=== Strategy: none ===

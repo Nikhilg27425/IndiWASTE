@@ -1,0 +1,16 @@
+{
+  "id": "nikhilgupta2005/indiwaste-project-1-augmentation-bias",
+  "title": "IndiWASTE Project 1 Augmentation Bias",
+  "code_file": "run_project1_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "nikhilgupta2005/indiwaste-dataset"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
