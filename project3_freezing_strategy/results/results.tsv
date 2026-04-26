@@ -1,0 +1,5 @@
+commit	val_error	val_macro_f1	val_accuracy	training_seconds	num_steps	trainable_params_M	train_val_gap	status	description
+ee98861	0.152654	0.847346	0.846325	897.3	4821	0.01	0.031	keep	900s baseline on Kaggle P100 with all_but_head
+3979af4	0.157133	0.842867	0.844098	898.1	1243	4.71	0.074	discard	900s comparison on Kaggle P100 with freeze_early
+a693722	0.166171	0.833829	0.832962	898.6	1876	2.83	0.058	discard	900s comparison on Kaggle P100 with freeze_late
+1ee91b8	0.185411	0.814589	0.812918	899.2	987	11.18	0.112	discard	900s comparison on Kaggle P100 with freeze_none

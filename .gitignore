@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv*/
+venv/
+env/
+
+# Kaggle staging (large dataset copies — not for git)
+.kaggle_stage/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Logs (keep only results/ logs, not temp ones)
+run.log
+
+# Kaggle credentials
+kaggle.json
