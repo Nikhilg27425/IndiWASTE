@@ -3,7 +3,7 @@
 ## Experimental Setup
 
 - Dataset: `IndiWASTE` (2,097 train / 449 val / 451 test images, 10 classes)
-- Model: `ResNet-18` pretrained on ImageNet, fine-tuned with each augmentation strategy
+- Model: `Small CNN` with 4 convolutional blocks, fixed architecture
 - Epochs per strategy: `25`
 - Strategies compared: `none`, `rotation`, `crop`, `color_jitter`, `cutout`
 - Corrupted test sets: `rotation`, `crop`, `color_jitter`, `cutout`
